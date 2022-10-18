@@ -1,0 +1,54 @@
+p{
+    border: 1px solid black;
+    background: aqua;
+    float: left;
+    display: inline-block;
+
+}
+@media(min-width: 992px){
+    .j {
+        width: 30%;
+        margin-right: 1%;
+
+    }
+    .k{
+        width: 30%;
+        margin-right: 1%;
+    }
+    .l{
+        width: 30%;
+        margin-right: 1%;
+    }
+}
+
+@media(min-width: 768px)and (max-width:991px ){
+    .j {
+        width: 45%;
+        margin-right: 1%;
+
+    }
+    .k{
+        width: 45%;
+        margin-right: 1%;
+    }
+    .l{
+        width: 45%;
+        margin-right: 1%;
+    }
+}
+
+@media(max-width: 767px){
+    .j {
+        width: 100%;
+        margin-bottom: 1%;
+
+    }
+    .k{
+        width: 100%;
+        margin-bottom: 1%;
+    }
+    .l{
+        width: 100%;
+        margin-bottom: 1%;
+    }
+}
